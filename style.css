@@ -1,0 +1,152 @@
+
+/* ESTILOS GENERALES DE LA PÁGINA */
+
+body {
+    background-color: #fff8f0; /* Fondo de color crema */
+    font-family: Arial, sans-serif; /* Usa Arial u otra fuente similar */
+    color: #333333; /* Texto de color gris oscuro */
+    margin: 0; /* Quita el margen del navegador */
+    padding: 24px; /* Deja espacio alrededor del contenido */
+}
+
+
+/* CABECERA */
+
+header {
+    background-color: #efd8dc; /* Fondo rosa */
+    color: #49343b; /* Color oscuro para el texto */
+    text-align: center; /* Centra el título y el texto */
+    padding: 32px; /* Espacio dentro de la cabecera */
+    border-radius: 12px; /* Redondea las esquinas */
+}
+
+
+/* MENÚ PRINCIPAL */
+
+nav[aria-label="Navegación principal"] ul {
+    display: flex; /* Coloca las opciones en una fila */
+    flex-wrap: wrap; /* Permite que pasen a otra fila si no caben */
+    justify-content: center; /* Centra las opciones */
+    gap: 18px; /* Separa los enlaces */
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0; /* Quita el espacio izquierdo de la lista */
+}
+
+nav[aria-label="Navegación principal"] a {
+    color: #a83f68; /* Enlaces de color rosa */
+    font-weight: bold; /* Texto en negrita */
+    text-decoration: none; /* Quita el subrayado */
+}
+
+
+/* GALERÍA DE LA PÁGINA PRINCIPAL */
+
+#photo-gallery {
+    max-width: 1000px; /* Limita el ancho de la galería */
+    margin: 32px auto; /* Centra la galería y deja espacio arriba y abajo */
+}
+
+#photo-gallery h2 {
+    text-align: center; /* Centra el título de las tres ciudades */
+}
+
+#photo-gallery figure {
+    background-color: white; /* Fondo blanco para cada fotografía */
+    padding: 20px; /* Espacio dentro de cada tarjeta */
+    margin: 20px; /* Separa las tarjetas */
+    border-radius: 12px; /* Redondea las esquinas */
+}
+
+#photo-gallery img {
+    width: 100%; /* La fotografía ocupa el ancho de la tarjeta */
+    height: auto; /* Mantiene las proporciones */
+    border-radius: 8px; /* Redondea las esquinas de la imagen */
+}
+
+#photo-gallery figcaption {
+    margin-top: 12px; /* Separa la descripción de la fotografía */
+    line-height: 1.6; /* Da más espacio entre las líneas */
+}
+
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    max-width: 1000px; /* Limita el ancho del contenido */
+    margin: 32px auto; /* Centra el contenido y deja espacio arriba y abajo */
+}
+
+
+/* FOTOGRAFÍAS Y PIES DE FOTO */
+
+main figure {
+    margin-left: 0; /* Alinea la fotografía con el texto por la izquierda */
+    margin-right: 0; /* Quita el margen derecho del navegador */
+}
+
+main img {
+    display: block; /* Permite organizar la imagen dentro de la página */
+    width: 100%; /* Ocupa el ancho disponible */
+    max-width: 900px; /* Limita el ancho a 900 píxeles */
+    height: auto; /* Mantiene las proporciones */
+    margin: 0; /* Evita que la imagen se desplace hacia el centro */
+    border-radius: 12px; /* Redondea las esquinas */
+}
+
+main figcaption {
+    margin-top: 16px; /* Deja espacio entre la fotografía y su descripción */
+    line-height: 1.6; /* Facilita la lectura del texto */
+}
+
+
+/* PIE DE PÁGINA */
+
+footer a {
+    color: #a83f68; /* Enlaces de color rosa */
+}
+
+
+/* FORMULARIOS */
+
+form {
+    max-width: 600px; /* Limita el ancho del formulario */
+    margin: 0 auto; /* Centra el formulario */
+}
+
+form div {
+    margin-bottom: 20px; /* Separa los campos del formulario */
+}
+
+label {
+    display: block; /* Coloca la etiqueta encima del campo */
+}
+
+input {
+    width: 100%; /* Los campos ocupan todo el ancho disponible */
+    padding: 10px; /* Espacio dentro de los campos */
+    box-sizing: border-box; /* Evita que el relleno aumente el ancho total */
+}
+
+textarea {
+    width: 100%; /* El mensaje ocupa todo el ancho disponible */
+    padding: 10px; /* Espacio dentro del cuadro de texto */
+    box-sizing: border-box; /* Evita que el cuadro sobresalga */
+}
+
+
+/* CASILLA DE CONFIRMACIÓN */
+
+#confirmacion {
+    width: auto; /* Mantiene el tamaño normal de la casilla */
+}
+
+/* Quita los puntos de la lista de la galería */
+.photo-gallery ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* ENLACE PARA VOLVER AL INICIO */
+a[href="proyecto_final.html"] {
+    color: #a83f68;
+}

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+
+        <!-- Aplica a contacto los estilos que ya hemos creado -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Contacto</h1>
+            <p>Comparte tus experiencias, preguntas o recomendaciones de viaje con nosotros.</p>
+        </header>
+
+        <main>
+            <form method="post">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Enviar mensaje:</button>
+                </div>
+            </form>
+        </main>
+
+        <!-- Enlace para volver a la página principal -->
+        <p>
+            <a href="proyecto_final.html">← Volver al inicio</a>
+        </p>
+
+    </body>
+</html>
